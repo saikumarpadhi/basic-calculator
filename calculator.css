@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    background-color: #7f8082;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card1 {
+    background-color: #666968;
+    color: white;
+    font-weight: bold;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-style {
+    height: 70px;
+    width: 90px;
+    background-color: #4db391;
+    border-width: 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.calculator {
+    width: 240px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.buttons button {
+    font-size: 24px;
+    padding: 10px;
+    width: 56px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #72dbf2;
+}
+
+
+.equals-button:hover {
+    background-color: #0a5cd0;
+}
